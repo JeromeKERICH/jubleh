@@ -11,7 +11,7 @@ const Footer = () => {
           
           {/* Company Overview */}
           <div className="lg:col-span-1">
-            <img src="/assets/logo.PNG" alt="Jubleh Logo" className="h-10 mb-4" />
+            <img src="/assets/log1.PNG" alt="Jubleh Logo" className="h-10 mb-4" />
             <p className="text-gray-300 leading-relaxed">
               Transforming spaces, styles, and lifestyles with premium quality essentials 
               and curated collections for every aspect of modern living.
@@ -23,19 +23,19 @@ const Footer = () => {
             <h4 className="text-amber-400 font-semibold mb-4 text-lg">Quick Links</h4>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-300 hover:text-amber-400 transition-colors duration-200">
+                <Link to="/" className="text-gray-300 hover:text-amber-400 transition-colors duration-200">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-amber-400 transition-colors duration-200">
+                <Link to="/about" className="text-gray-300 hover:text-amber-400 transition-colors duration-200">
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-amber-400 transition-colors duration-200">
+                <Link to="/contact" className="text-gray-300 hover:text-amber-400 transition-colors duration-200">
                   Contact
-                </a>
+                </Link>
               </li>
               <li>
                 
@@ -88,8 +88,8 @@ const Footer = () => {
                     <PhoneCallIcon className="w-5 h-5" />
                 </span>
                 
-                <a href="tel:+254700000000" className="hover:text-amber-400 transition-colors duration-200">
-                  +254 7XX XXX XXX
+                <a href="tel:+254728588119" className="hover:text-amber-400 transition-colors duration-200">
+                  +254 728 588 119
                 </a>
               </div>
             </div>
